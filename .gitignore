@@ -1,3 +1,4 @@
 .vs
 *.log
 /Build
+/myenv
