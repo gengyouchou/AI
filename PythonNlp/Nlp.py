@@ -7,4 +7,4 @@ def tokenize(text):
     print(tokens)
     return tokens
 
-tokenize("I love you")
+#tokenize("I love you")

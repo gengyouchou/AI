@@ -2,3 +2,4 @@
 *.log
 /Build
 /myenv
+__pycache__

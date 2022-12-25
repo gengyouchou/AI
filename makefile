@@ -4,7 +4,7 @@ EXECUTABLE = main
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	g++ -o $(EXECUTABLE) $(OBJECTS)
+	g++ -o $(EXECUTABLE) $(OBJECTS) -lpython3.8
 	mkdir -p Build
 	mv $(EXECUTABLE) $(OBJECTS) Build
 
